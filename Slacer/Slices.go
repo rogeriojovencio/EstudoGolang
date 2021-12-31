@@ -32,8 +32,8 @@ func main() {
 	t := []string{"g", "h", "i"}
 	fmt.Println("dcl:", t)
 
-	twoD := make([][]int, 10)
-	for i := 0; i < 10; i++ {
+	twoD := make([][]int, 3)
+	for i := 0; i < 3; i++ {
 		innerLen := i + 1
 		twoD[i] = make([]int, innerLen)
 		for j := 0; j < innerLen; j++ {
